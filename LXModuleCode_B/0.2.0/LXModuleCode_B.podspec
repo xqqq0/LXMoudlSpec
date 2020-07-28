@@ -43,6 +43,14 @@ TODO: Add long description of the pod here.
 
   s.subspec 'SubA' do |a|
       a.source_files = 'LXModuleCode_B/Classes/SubA/**/*'
-      # a.public_header_files = 'LXModuleCode_B/Classes/SubA/**/*.h'
+      a.public_header_files = 'LXModuleCode_B/Classes/SubA/**/*.h'
+  end
+  s.subspec 'SubB' do |b|
+      b.source_files = 'LXModuleCode_B/Classes/SubB/**/*'
+      b.public_header_files = 'LXModuleCode_B/Classes/SubB/**/*.h'
+  end
+  s.subspec 'SubA' do |c|
+      c.source_files = 'LXModuleCode_B/Classes/SubC/**/*'
+      c.public_header_files = 'LXModuleCode_B/Classes/SubC/**/*.h'
   end
 end
