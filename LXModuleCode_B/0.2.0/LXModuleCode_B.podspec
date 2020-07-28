@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LXModuleCode_B/Classes/**/*'
+  # s.source_files = 'LXModuleCode_B/Classes/**/*'
 
   # s.resource_bundles = {
   #   'LXModuleCode_B' => ['LXModuleCode_B/Assets/*.png']
