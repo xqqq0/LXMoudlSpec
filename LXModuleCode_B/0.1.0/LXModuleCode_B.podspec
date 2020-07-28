@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'LXModuleCode_B/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'LXModuleCode_B' => ['LXModuleCode_B/Assets/*.png']
   # }
@@ -39,4 +39,10 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+
+  # s.subspec 'SubA' do |a|
+  #     a.source_files = 'LXModuleCode_B/Classes/SubA/**/*'
+  #     a.public_header_files = 'LXModuleCode_B/Classes/SubA/**/*.h'
+  # end
 end
